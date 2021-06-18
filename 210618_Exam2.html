@@ -9,8 +9,9 @@
 
     <style>
         th {
-            font-size: 7px;
+            font-size: 13px;
             width: 120px;
+            height: 40px;
             background-color: plum;
             font-weight: bold;
         }
@@ -26,22 +27,25 @@
 </head>
 
 <body>
-
+    <!-- 왼쪽 영역 -->
     <div style="width: 60%; margin-right: 20px; float:left;">
         <center>
             <h2> 문제. 다음과 같은 입력 폼을 만드세요.</h2>
         </center>
+
         <p style="color: white; background-color: rgb(85, 130, 214); 
                 font-size: 13px; padding: 5px; margin: 0px;">
             <b>사용자 정보입력</b>
         </p>
+
         <p style="font-size: 13px; margin: 0px">
             안녕, 내 홈페이지를 자유롭게 이용하진 못하겠지만 회원가입을 꼭 하렴. <br>
             아래 사항들을 빠짐없이 기록해.
         </p>
+
         <br>
 
-        <table style="width: 100%;">
+        <table style="width: 100%; height: 100%;">
             <tr>
                 <th> 사용자 ID </th>
                 <td colspan="3"> <input type="text" name="id" id="id" autofocus> <input type="button" value="ID중복확인">
@@ -49,9 +53,9 @@
             </tr>
             <tr>
                 <th> 비밀번호 </th>
-                <td> <input type="password" id="pwd"></td>
+                <td> <input type="password" id="pwd_base"> </td>
                 <th> 비밀번호 확인 </th>
-                <td> <input type="password" id="pwd"></td>
+                <td> <input type="password" id="pwd_chk"> </td>
             </tr>
             <tr>
                 <th> 사용자 이름 </th>
@@ -122,6 +126,8 @@
             </tr>
         </table>
     </div>
+
+    <!-- 오른쪽 영역 -->
     <div style="width: 33%; float: left;">
         <form style="border:1px solid; padding: 15px;">
             <legend> Form 요소 </legend>
