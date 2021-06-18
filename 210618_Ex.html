@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>2021년 블록체인 비즈니스 모델 개발사업</title>
+
+    <style>
+        tr,
+        th {
+            width: 140px;
+            border: 1px solid;
+        }
+
+        td {
+            border: 1px solid;
+            text-align: right;
+            padding: 0px 5px 0px 0px;
+        }
+
+        #staion {
+            text-align: center;
+        }
+
+        .station {
+            text-align: center;
+        }
+
+        .outer {
+            border: 1px solid;
+            border-color: gray;
+            border-spacing: 0px;
+        }
+
+        .current {
+            background-color: rgb(234, 239, 220);
+        }
+
+        .future {
+            background-color: rgb(252, 231, 214);
+        }
+    </style>
+</head>
+
+<body>
+    <h1> 문제. 열차 시간표를 만드세요</h1>
+    <table class="outer">
+        <tr>
+            <th rowspan="2"> 출발역 </th>
+            <th rowspan="2"> 도착역 </th>
+            <th colspan="2" class="current"> 현재운임 </th>
+            <th colspan="2" class="future"> 2022년 중앙선 전 구간 개통 시 <br> 청량리 ~ 서원주 구간 '준고속 서비스' </th>
+        </tr>
+        <tr>
+
+            <th class="current"> 일반실(A) </th>
+            <th class="current"> 우등실 </th>
+            <th class="future"> 일반실(B) </th>
+            <th class="future"> 우등실 </th>
+        </tr>
+        <tr>
+            <td class="station"> 청량리 </td>
+            <td class="station"> 원주 </td>
+            <td class="current"> 10,100 </td>
+            <td class="current"> 13,100 </td>
+            <td class="future"> 13,300 </td>
+            <td class="future"> 16,300 </td>
+        </tr>
+        <tr>
+            <td class="station"> 양평 </td>
+            <td class="station"> 원주 </td>
+            <td class="current"> 8,400 </td>
+            <td class="current"> 11,400 </td>
+            <td class="future"> 8,400</td>
+            <td class="future"> 11,400 </td>
+        </tr>
+        <tr>
+            <td class="station"> 원주 </td>
+            <td class="station"> 제천 </td>
+            <td class="current"> 8,400 </td>
+            <td class="current"> 11,400 </td>
+            <td class="future"> 8,400 </td>
+            <td class="future"> 11,400 </td>
+        </tr>
+        <tr>
+            <td class="station"> 원주 </td>
+            <td class="station"> 단양 </td>
+            <td class="current"> 8,400 </td>
+            <td class="current"> 11,400 </td>
+            <td class="future"> 8,400 </td>
+            <td class="future"> 11,400 </td>
+        </tr>
+        <tr>
+            <td class="station"> 원주 </td>
+            <td class="station"> 풍기 </td>
+            <td class="current"> 10,400 </td>
+            <td class="current"> 13,400 </td>
+            <td class="future"> 10,400 </td>
+            <td class="future"> 13,400 </td>
+        </tr>
+        <tr>
+            <td class="station"> 원주 </td>
+            <td class="station"> 영주 </td>
+            <td class="current"> 11,700 </td>
+            <td class="current"> 17,900 </td>
+            <td class="future"> 11,700 </td>
+            <td class="future"> 14,700 </td>
+        </tr>
+        <tr>
+            <td class="station"> 원주 </td>
+            <td class="station"> 안동 </td>
+            <td class="current"> 14,900 </td>
+            <td class="current"> 17,900 </td>
+            <td class="future"> 14,900 </td>
+            <td class="future"> 17,900 </td>
+        </tr>
+    </table>
+</body>
+
+</html>
